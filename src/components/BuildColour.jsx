@@ -41,7 +41,7 @@ const BuildColour = () => {
         <p className={`${styles.paragraph}`}>Tonda GLA500</p>
         <h1 className={`${styles.heading1}`}>Explore the possibilities.</h1>
       </div>
-      <div className="flex xl:flex-row flex-col ss:p-28 p-2">
+      <div className="flex md:flex-row flex-col ss:p-28 p-2">
         <div className="ss:w-[40%] w-full flex justify-center ss:pt-0 pt-6">
           <div
             style={borderGlow}
@@ -89,7 +89,7 @@ const BuildColour = () => {
           style={{
             backgroundImage: `url(${carColours[selected].img})`,
           }}
-          className="carColImg xl:flex-1 flex bg-contain bg-center bg-no-repeat z-10 duration-500 xl:h-auto h-[400px]"
+          className="carColImg md:flex-1 flex bg-contain bg-center bg-no-repeat z-10 duration-500 xl:h-auto h-[400px]"
         ></div>
         <div className="absolute z-[0] w-[40%] h-[50%] -right-[0%] rounded-full blue__gradient bottom-50" />
       </div>

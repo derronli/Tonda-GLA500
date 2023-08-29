@@ -3,7 +3,7 @@ import React from "react";
 const Landing = () => {
   return (
     <div className="landing">
-      <div className="landing-text">
+      <div className="landing-text ss:top-[40%] xl:top-[25%] top-[33%]">
         <h2 className="font-poppins xs:text-[30px] text-[16px] tracking-tight text-white xs:leading-[76.8px] leading-[66.8px] w-full xs:pb-4 pb-0">
           Tonda GLA500
         </h2>
