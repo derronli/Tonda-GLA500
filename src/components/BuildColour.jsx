@@ -37,15 +37,15 @@ const BuildColour = () => {
 
   return (
     <section className="flex flex-col xl:h-[80vh] h-[100vh] w-full relative">
-      <div className="xs:px-28 px-5 xs:text-start text-center">
+      <div className="ss:px-28 px-5 ss:text-start text-center">
         <p className={`${styles.paragraph}`}>Tonda GLA500</p>
         <h1 className={`${styles.heading1}`}>Explore the possibilities.</h1>
       </div>
-      <div className="flex xl:flex-row flex-col xs:p-28 p-2">
-        <div className="xs:w-[40%] w-full flex justify-center xs:pt-0 pt-6">
+      <div className="flex xl:flex-row flex-col ss:p-28 p-2">
+        <div className="ss:w-[40%] w-full flex justify-center ss:pt-0 pt-6">
           <div
             style={borderGlow}
-            className="colourSelect flex flex-col md:w-[370px] w-[180px] md:h-auto xs:h-[200px] h-[220px] xs:py-12 py-3"
+            className="colourSelect flex flex-col md:w-[370px] w-[180px] md:h-auto ss:h-[200px] h-[220px] ss:py-12 py-3"
           >
             <p className="pt-2 pl-6 md:pb-8 pb-0 font-poppins font-normal md:text-[30px] xs:text-[22px] text-[16px] xs:leading-[26.58px] leading-[21.58px] text-gradient">
               {carColours[selected].colourName}
