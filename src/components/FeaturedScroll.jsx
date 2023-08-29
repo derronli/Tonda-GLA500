@@ -54,7 +54,7 @@ const FeaturedScroll = () => {
         <img
           src={featured_imgSet["img-1"]}
           alt=""
-          className="xl:hidden flex max-h-[60%] pt-20 w-full"
+          className="xl:hidden flex max-h-[60%] pt-20 ss:w-1/2 w-full"
         />
       </div>
       {/*  */}
@@ -72,7 +72,7 @@ const FeaturedScroll = () => {
         <img
           src={featured_imgSet["img-2"]}
           alt=""
-          className="xl:hidden flex max-h-[60%] pt-20 w-full"
+          className="xl:hidden flex max-h-[60%] pt-20 ss:w-1/2 w-full"
         />
       </div>
       {/*  */}
@@ -90,7 +90,7 @@ const FeaturedScroll = () => {
         <img
           src={featured_imgSet["img-3"]}
           alt=""
-          className="xl:hidden flex max-h-[60%] pt-20 w-full"
+          className="xl:hidden flex max-h-[60%] pt-20 ss:w-1/2 w-full"
         />
       </div>
       <div className="scrollText scrollBound pt-96"></div>

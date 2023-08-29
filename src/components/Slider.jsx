@@ -18,8 +18,8 @@ const Slider = () => {
         className="flex-1 bg-center bg-cover w-full sm:h-[900px] h-[500px] duration-500"
       ></div>
 
-      <div className="flex flex-1 xs:flex-row flex-col xs:px-12 px-6 pt-6">
-        <div className="xs:w-4/6 w-full">
+      <div className="flex flex-1 ss:flex-row flex-col xs:px-12 px-6 pt-6">
+        <div className="ss:w-4/6 w-full">
           <h1
             key={currSlide}
             className={`${styles.paragraph} xs:text-[20px] text-[14px] transition scrollerTextAni`}
@@ -28,7 +28,7 @@ const Slider = () => {
             {slider1[currSlide].text}
           </h1>
         </div>
-        <div className="xs:pl-24 pl-0 xs:mt-0 mt-5 xs:w-2/6 w-full flex justify-evenly items-start">
+        <div className="ss:pl-24 pl-0 ss:mt-0 mt-5 ss:w-2/6 w-full flex justify-evenly items-start">
           {slider1.map((slide, index) => (
             <button
               key={slide.id}
