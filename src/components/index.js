@@ -12,6 +12,7 @@ import Slider from "./Slider";
 import FeaturedScroll from "./FeaturedScroll";
 import BuildColour from "./BuildColour";
 import Landing from "./Landing";
+import Versatile from "./Versatile";
 
 export {
   Navbar,
@@ -27,4 +28,5 @@ export {
   FeaturedScroll,
   BuildColour,
   Landing,
+  Versatile,
 };

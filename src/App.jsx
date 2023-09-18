@@ -14,6 +14,7 @@ import {
   FeaturedScroll,
   BuildColour,
   Landing,
+  Versatile,
 } from "./components";
 
 const App = () => {
@@ -54,6 +55,15 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <AppSupport />
           <Sound />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.boxWidth}`}>
+        <Versatile />
+      </div>
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
           <Testimonials />
           <CTA />
           <Footer />
