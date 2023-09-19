@@ -24,6 +24,8 @@ import {
   teswhi,
   chasis,
   parkAssist,
+  tes_versatile,
+  tesDesign,
 } from "../assets";
 
 export const navLinks = [
@@ -272,5 +274,20 @@ export const carColours = [
     colourName: "Smooth White",
     colour: "#F9FAFA",
     img: teswhi,
+  },
+];
+
+export const designHighlights = [
+  {
+    heading: "DESIGN",
+    description:
+      "The classic proportions and tensed muscle tone of a sport sedan envelop a spacious digital cockpit. A perennial favorite keeps driving into the future, to entice you, engage you, and enthrall you like never before.",
+    img: tesDesign,
+  },
+  {
+    heading: "VERSATILITY",
+    description:
+      "It can take you new places, or make old favorite roads feel fresh. It can take up to six of your friends, or make easy work of the weekend chores. And wherever you take it, it'll outperform to make every drive memorable.",
+    img: tes_versatile,
   },
 ];
