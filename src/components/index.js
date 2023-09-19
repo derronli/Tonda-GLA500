@@ -13,6 +13,7 @@ import FeaturedScroll from "./FeaturedScroll";
 import BuildColour from "./BuildColour";
 import Landing from "./Landing";
 import Versatile from "./Versatile";
+import Design from "./Design";
 
 export {
   Navbar,
@@ -29,4 +30,5 @@ export {
   BuildColour,
   Landing,
   Versatile,
+  Design,
 };

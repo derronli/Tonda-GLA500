@@ -33,7 +33,7 @@ import parkAssist from "./parkAssist.jpg";
 import soundSystem from "./soundSystem.jpg";
 import landing from "./Landing.jpg";
 import tes_versatile from "./tes_versatile.jpg";
-import tesDesign from "./tesDesign.png";
+import tesDesign from "./tesDesign.jpg";
 
 export {
   quotes,

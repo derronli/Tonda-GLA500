@@ -15,6 +15,7 @@ import {
   BuildColour,
   Landing,
   Versatile,
+  Design,
 } from "./components";
 
 const App = () => {
@@ -36,13 +37,15 @@ const App = () => {
         </div>
       </div>
 
-      <div
-        className={`bg-primary ${styles.paddingX} ${styles.flexStart} mb-28`}
-      >
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Awards />
         </div>
+      </div>
+
+      <div className={`bg-primary pb-24`}>
+        <Design />
       </div>
 
       <div className={`bg-primary ${styles.flexStart} flex-col`}>
