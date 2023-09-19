@@ -1,8 +1,10 @@
-# React + Vite
+# Tonda GLA500
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Check it out](https://derronli.github.io/Tonda-GLA500/)
 
-Currently, two official plugins are available:
+🚙 Tonda is a made-up luxury automotive brand. This website is intended to be the main page for the "GLA500" vehicle model. \
+📱 Fully responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Built With
+- React.js
+- Tailwind CSS
