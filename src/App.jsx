@@ -58,7 +58,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.boxWidth}`}>
+      <div className={`bg-primary`}>
         <Versatile />
       </div>
 

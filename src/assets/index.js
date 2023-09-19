@@ -32,6 +32,7 @@ import chasis from "./chasis.jpeg";
 import parkAssist from "./parkAssist.jpg";
 import soundSystem from "./soundSystem.jpg";
 import landing from "./Landing.jpg";
+import tes_versatile from "./tes_versatile.jpg";
 
 export {
   quotes,
@@ -68,4 +69,5 @@ export {
   parkAssist,
   soundSystem,
   landing,
+  tes_versatile,
 };

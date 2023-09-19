@@ -11,6 +11,8 @@ const styles = {
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
+  sideHeading: "font-poppins font-normal text-white text-[26px]",
+
   paragraphDark:
     "font-poppins font-normal text-black text-[22px] leading-[30.8px]",
   flexCenter: "flex justify-center items-center",
