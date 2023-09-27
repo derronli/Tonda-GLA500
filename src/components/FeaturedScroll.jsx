@@ -36,7 +36,7 @@ const FeaturedScroll = () => {
         <div className="absolute z-[0] w-[15%] h-[15%] left-6 rounded-full blue__gradient bottom-84" />
         <div
           id="img-1"
-          className="flex-1 flex scrollText flex-col xl:max-w-lg lg:max-w-xs"
+          className="xl:flex-1 flex scrollText flex-col xl:max-w-lg lg:max-w-xs"
         >
           <h1 className={`${styles.heading2} py-4 z-10`}>Fear nothing.</h1>
           <p

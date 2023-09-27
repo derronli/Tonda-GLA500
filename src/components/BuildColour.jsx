@@ -38,8 +38,8 @@ const BuildColour = () => {
   return (
     <section className="flex flex-col xl:h-[80vh] h-[100vh] w-full relative">
       <div className="ss:px-28 px-5 ss:text-start text-center">
-        <p className={`${styles.paragraph} ml-20`}>Tonda GLA500</p>
-        <h1 className={`${styles.heading1} ml-20`}>
+        <p className={`${styles.paragraph} md:ml-20`}>Tonda GLA500</p>
+        <h1 className={`${styles.heading1} md:ml-20`}>
           Explore the possibilities.
         </h1>
       </div>
