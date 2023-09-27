@@ -10,13 +10,13 @@ const Slider = () => {
   };
 
   return (
-    <section className="pb-20 flex-col w-full">
+    <section className="pb-20 flex-col w-full section-container">
       <div className="xs:px-12 px-6">
         <div
           style={{
             backgroundImage: `url(${slider1[currSlide].image})`,
           }}
-          className="flex-1 bg-center bg-cover w-full sm:h-[900px] h-[500px] duration-500 rounded-xl"
+          className="flex-1 bg-center bg-cover w-full xl:h-[900px] md:h-[600px] h-[500px] duration-500 rounded-xl"
         ></div>
       </div>
 

@@ -157,6 +157,17 @@
   height: 55%;
 }
 
+@media only screen and (max-width: 1080px) {
+  .scrollImg {
+    left: 80%;
+    top: 50%;
+    transform: translate(-80%, -50%);
+    position: fixed;
+    width: 500px;
+    height: 500px;
+  }
+}
+
 .pastScroll {
   margin-left: 6rem;
   margin-right: 6rem;
