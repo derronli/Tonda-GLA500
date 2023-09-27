@@ -9,7 +9,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart} flex-col md:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
@@ -29,7 +29,9 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold xl:text-[68px] text-[52px] text-white xl:leading-[100.8px] leading-[75px] w-full">
           of Luxury
         </h1>
-        <p className={`${styles.paragraph} max-w-[480px] mt-5`}>
+        <p
+          className={`${styles.paragraph} xl:max-w-[480px] md:max-w-[350px] mt-5`}
+        >
           Our team of experts uses cutting edge technology and research to
           elevate the driving experience. Precision crafted performance to fit
           your every need.
@@ -42,7 +44,7 @@ const Hero = () => {
         <img
           src={carTrans}
           alt="Sound"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5] bg-no-repeat bg-cover bg-center"
         />
 
         {/* gradient start */}

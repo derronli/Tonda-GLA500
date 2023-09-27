@@ -2,14 +2,14 @@
 // Makes code cleaner
 
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  boxWidth: "xl:max-w-[1280px] lg:max-w-[950px] w-full",
 
   heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-poppins font-semibold xl:text-[48px] md:text-[43px] text-[40px] text-white xl:leading-[76.8px] md:leading-[60px] leading-[66.8px] w-full",
   heading1:
     "font-poppins xs:text-[60px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph:
-    "font-poppins font-normal text-dimWhite xl:text-[18px] md:text-[14] leading-[30.8px]",
+    "font-poppins font-normal text-dimWhite xl:text-[18px] md:text-[12px] xl:leading-[30.8px] md:leading-[20px]",
 
   sideHeading: "font-poppins font-normal text-white text-[26px]",
 
