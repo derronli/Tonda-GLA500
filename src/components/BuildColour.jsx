@@ -9,7 +9,7 @@ const CircleColour = ({ id, colour, selected, onColourSelect }) => {
       style={{ backgroundColor: colour }}
       className={
         (selected === id ? "selectedCircle " : "") +
-        "circle md:h-[100px] h-[50px] md:w-[100px] w-[50px] cursor-pointer"
+        "circle xl:h-[100px] md:h-[75px] h-[50px] xl:w-[100px] md:w-[75px] w-[50px] cursor-pointer"
       }
       onClick={() => onColourSelect(id, colour)}
     ></div>
@@ -38,16 +38,18 @@ const BuildColour = () => {
   return (
     <section className="flex flex-col xl:h-[80vh] h-[100vh] w-full relative">
       <div className="ss:px-28 px-5 ss:text-start text-center">
-        <p className={`${styles.paragraph}`}>Tonda GLA500</p>
-        <h1 className={`${styles.heading1}`}>Explore the possibilities.</h1>
+        <p className={`${styles.paragraph} ml-20`}>Tonda GLA500</p>
+        <h1 className={`${styles.heading1} ml-20`}>
+          Explore the possibilities.
+        </h1>
       </div>
       <div className="flex md:flex-row flex-col ss:p-28 p-2">
         <div className="ss:w-[40%] w-full flex justify-center ss:pt-0 pt-6">
           <div
             style={borderGlow}
-            className="colourSelect flex flex-col md:w-[370px] w-[180px] md:h-auto ss:h-[200px] h-[220px] ss:py-12 py-3"
+            className="colourSelect flex flex-col xl:w-[370px] md:w-[300px] w-[180px] xl:h-auto md:h-[300px] ss:h-[200px] h-[220px] xl:py-12 py-3"
           >
-            <p className="pt-2 pl-6 md:pb-8 pb-0 font-poppins font-normal md:text-[30px] xs:text-[22px] text-[16px] xs:leading-[26.58px] leading-[21.58px] text-gradient">
+            <p className="pt-2 pl-6 xl:pb-8 md:pb-3 pb-0 font-poppins font-normal md:text-[30px] xl:text-[22px] text-[16px] xs:leading-[26.58px] leading-[21.58px] text-gradient">
               {carColours[selected].colourName}
             </p>
             {/* First row of colours */}
@@ -80,7 +82,7 @@ const BuildColour = () => {
               {/* DUMMY CIRCLE (FOR SPACING) */}
               <div
                 style={{ backgroundColor: "#00040f" }}
-                className="circle md:h-[100px] h-[50px] md:w-[100px] w-[50px]"
+                className="circle xl:h-[100px] md:h-[75px] h-[50px] xl:w-[100px] md:w-[75px] w-[50px]"
               ></div>
             </div>
           </div>
