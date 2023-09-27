@@ -9,7 +9,7 @@ const styles = {
   heading1:
     "font-poppins xs:text-[60px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph:
-    "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    "font-poppins font-normal text-dimWhite xl:text-[18px] md:text-[14] leading-[30.8px]",
 
   sideHeading: "font-poppins font-normal text-white text-[26px]",
 

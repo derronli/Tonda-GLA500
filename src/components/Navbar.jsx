@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex md:py-0 xl:py-6 justify-between items-center navbar">
       <img src={mainLogo} alt="hoobank" className="w-[80px] h-[80px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
