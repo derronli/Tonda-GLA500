@@ -49,7 +49,7 @@ const BuildColour = () => {
             style={borderGlow}
             className="colourSelect flex flex-col xl:w-[370px] md:w-[300px] w-[180px] xl:h-auto md:h-[300px] ss:h-[200px] h-[220px] xl:py-12 py-3"
           >
-            <p className="pt-2 pl-6 xl:pb-8 md:pb-3 pb-0 font-poppins font-normal md:text-[30px] xl:text-[22px] text-[16px] xs:leading-[26.58px] leading-[21.58px] text-gradient">
+            <p className="pt-2 pl-6 xl:pb-8 pb-0 font-poppins font-normal xl:text-[30px] md:text-[24px] text-[16px] xs:leading-[26.58px] leading-[21.58px] text-gradient">
               {carColours[selected].colourName}
             </p>
             {/* First row of colours */}
