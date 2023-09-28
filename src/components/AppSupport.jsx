@@ -23,16 +23,18 @@ const AppSupport = () => {
       </div>
 
       <div className={`${layout.sectionInfo}`}>
-        <h2 className={`${styles.heading2} md:ml-36 ml-0`}>
+        <h2 className={`${styles.heading2} xl:ml-36 md:ml-20 ml-0`}>
           A world of support <br className="sm:block hidden" /> at your
           fingertips
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 md:ml-36 ml-0`}>
+        <p
+          className={`${styles.paragraph} max-w-[470px] mt-5 xl:ml-36 md:ml-20 ml-0`}
+        >
           The available Tonda Connect app makes interacting with your Tonda more
           convenient than ever. Plus multi-connect and wireless charging.
         </p>
 
-        <div className="flex flex-row flex-wrap sm:mt-10 mt-6 md:ml-36 ml-0">
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-6 xl:ml-36 md:ml-20 ml-0">
           <img
             src={apple}
             alt="google_play"
