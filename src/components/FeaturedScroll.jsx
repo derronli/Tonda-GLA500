@@ -102,7 +102,7 @@ const FeaturedScroll = () => {
           className="lg:hidden flex max-h-[60%] pt-20 ss:w-1/2 w-full"
         />
       </div>
-      <div className="scrollText scrollBound pt-96"></div>
+      <div className="scrollText scrollBound xl:pt-96 pt-14"></div>
     </section>
   );
 };
