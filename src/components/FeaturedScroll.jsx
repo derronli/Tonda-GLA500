@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { featured_imgSet } from "../constants";
 import styles from "../style";
 
+// Test
 const FeaturedScroll = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
