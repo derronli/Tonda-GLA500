@@ -2,7 +2,14 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const FeatureCard = ({ icon, title, content, index }) => (
+type FeatureCardProps = {
+  icon: string,
+  title: string,
+  content: string,
+  index: number,
+}
+
+const FeatureCard = ({ icon, title, content, index }: FeatureCardProps) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
@@ -24,7 +31,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Awards = () => {
+const Awards = () => { 
+
   return (
     <section id="features" className={`${layout.section}`}>
       <div className={layout.sectionInfo}>

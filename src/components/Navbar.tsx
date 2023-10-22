@@ -3,7 +3,7 @@ import { close, mainLogo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState<boolean>(false);
 
   return (
     <nav className="w-full flex md:py-0 xl:py-6 justify-between items-center navbar">
