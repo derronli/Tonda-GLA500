@@ -18,6 +18,8 @@ import {
   Design,
 } from "./components";
 
+import Test from "./components/Test";
+
 const App = () => {
   return (
     <div id="container" className="bg-primary w-full overflow-hidden">
@@ -26,10 +28,10 @@ const App = () => {
           <Navbar />
         </div>
       </div>
-
       <div className={`${styles.flexStart} flex-col`}>
         <Landing />
       </div>
+      <Test />
 
       <div className={`bg-primary ${styles.flexStart} pt-20`}>
         <div className={`${styles.boxWidth}`}>
