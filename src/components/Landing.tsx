@@ -1,4 +1,3 @@
-import React from "react";
 
 const Landing = () => {
   // lg: is 100%
