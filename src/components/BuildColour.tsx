@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "../style";
 import { carColours } from "../constants";
 
-const CircleColour = ({ id, colour, selected, onColourSelect }) => {
+type CircleColourTypes = {
+  id: number,
+  colour: string,
+  selected: number,
+  onColourSelect: (id: number, colour: string) => void
+}
+
+const CircleColour = ({ id, colour, selected, onColourSelect }: CircleColourTypes) => {
   return (
     <div
-      id={id}
+      id={"" + id}
       style={{ backgroundColor: colour }}
       className={
         (selected === id ? "selectedCircle " : "") +
@@ -17,19 +24,23 @@ const CircleColour = ({ id, colour, selected, onColourSelect }) => {
 };
 
 const BuildColour = () => {
-  const [selected, setSelected] = useState(0);
-  const [borderGlow, setBorderGlow] = useState({
+  type BorderGlowStyles = {
+    boxShadow: string,
+    transition: string
+  }
+  const [selected, setSelected] = useState<number>(0);
+  const [borderGlow, setBorderGlow] = useState<BorderGlowStyles>({
     boxShadow: "0 0 20px #00246A",
     transition: "all 1.5s ease",
   });
   // Dynamically change the CSS (colour) by creating a JS object as a "dummy" style
 
-  const handleColourSelect = (id, colour) => {
+  const handleColourSelect = (id: number, colour: string) => {
     setSelected(id);
     handleBorderGlow(colour);
   };
 
-  const handleBorderGlow = (colour) => {
+  const handleBorderGlow = (colour: string) => {
     const newGlow = { ...borderGlow };
     newGlow["boxShadow"] = "0 0 20px " + colour;
     setBorderGlow(newGlow);
